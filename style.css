@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 2000px;
+}
+.container{
+    border: 2px solid black;
+    width: 500 px;
+    height: 500 px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.box1{
+    background-color: green;
+    
+}
+
+.box2{
+    background-color: rgb(0, 53, 128);
+    position: fixed;
+    top: 50px;
+    left: 40px;
+    
+}
+
+.box3{
+    background-color: rgb(128, 0, 96);
+    position: fixed;
+    top: 100;
+    left:100;
+}
+
+.box4{
+    background-color: rgb(0, 111, 128);
+    position: realtive;
+    top: 10;
+    left:30;
+}
+
+
